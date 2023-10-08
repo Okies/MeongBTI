@@ -83,7 +83,7 @@ export const questions = [
 export const results = [
   {
     title: '출근 시간은<br>내가 정해!',
-    character: '/images/result_character1.png',
+    character: '/images/intp.png',
     results: [
       '혼자서 멘탈 케어가 가능해요!<br>소속이 없어도, 벌이가 불안정해도 저는 지금이 좋아요!',
       '일에 대한 욕심이 많아요.<br>행복한 야근이라고 할 수 있어요!',
@@ -96,7 +96,7 @@ export const results = [
   },
   {
     title: '프로직진러!<br>진행력 갑',
-    character: '/images/result_character2.png',
+    character: '/images/intp.png',
     results: [
       '나는야 회사 사람들 멘탈 지킴이!<br>언제나 토닥토닥 으샤으샤 응원하며 다니는 파워 인싸!',
       '여러 사람과 협업이 필요한 직무에 찰떡!',
@@ -104,7 +104,7 @@ export const results = [
       '회사 행사나 크리스마스 이벤트,<br>회사사람들 생일까지 우리가 다 챙길게요'
     ],
     jobs: ['마케터', '기획자'],
-    lectureImg: '/images/result_lecture2.png',
+    lectureImg: '/images/intp.png',
     lectureUrl: 'https://bit.ly/3SZl1t9'
   },
   {
@@ -117,7 +117,7 @@ export const results = [
       '업무에 예민할 때도 있지만,<br>그래서 결과물은 완벽하죠!'
     ],
     jobs: ['디자이너', '예술가'],
-    lectureImg: '/images/result_lecture3.png',
+    lectureImg: '/images/intp.png',
     lectureUrl: 'https://bit.ly/3DWlesG'
   },
   {
