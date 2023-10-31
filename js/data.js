@@ -1,89 +1,105 @@
 export const questions = [
   {
     number: '01',
-    question: '곧 크리스마스! 회사에서 크리스마스 파티 스텝을 모집한다는데?',
+    question: '(집사)가 집을 나갔다! 이때 나는?',
     choices: [
-      { text: '파티 스텝은 못하지ㅎ...<br>(그래도 파티는 재밌겠다 히히)', value: 'i' },
-      { text: '재밌겠다!<br>○○한테 같이 지원하자고 해야지~', value: 'e' }
+      { text: '쿨쿨,, 잘다녀와,,, 잠을 자거나 조용히 기다린다.', value: 'I' },
+      { text: '멍멍! 심심해! 놀래! 집 안을 뛰어다니며 놀기 시작한다.', value: 'E' }
     ]
   },
   {
     number: '02',
-    question: '해외 출장이 잡혔다!<br>전날 잠들기 전 나는?',
+    question: '다른 강아지 친구를 마주쳤다! 이때 나는?',
     choices: [
-      { text: '짐 다 챙겼고 일찍 자야지~', value: 's' },
-      { text: '다 챙겼겠지?<br>여분 옷을 좀 더 챙길까..(뒤척뒤척)', value: 'n' }
+      { text: '어라라 너는 누구야~? 귀엽다! >ㅁ< 호기심을 가지고 접근한다.', value: 'I' },
+      { text: '무서버,,, 저리가,,, 아는척하지마라멍! 주저하거나 무시한다.', value: 'E' }
     ]
   },
   {
     number: '03',
-    question: '친했던 동기가<br>퇴사를?',
+    question: '즐거운 놀이시간! 내 최애 놀이는?',
     choices: [
-      { text: '일하면서 많이 힘들었나?<br>내가 좀 더 챙겨줄걸.', value: 'f' },
-      { text: '아 이직하나?<br>퇴사하고 뭐하냐고 물어봐야지.', value: 't' }
+      { text: '장난감 물어뜯기! 집사한테 장난감 던져달라고 하기~~', value: 'E' },
+      { text: '(집사)야 쓰다듬어조~ 인형놀이하자~', value: 'I' }
     ]
   },
   {
     number: '04',
-    question: '대규모 프로젝트를 맡게 되어 떨리는 마음에 처음 시작한 건?',
+    question: '룰루 신나는 산책~! 중 뭐지? 장애물이 있다! 이때 나는?',
     choices: [
-      { text: '큰 프로젝트인 만큼 계획이 중요해!<br>목적과 목표 먼저 정리해봐야지!', value: 'j' },
-      { text: '당장 미팅 잡고<br>팀원이랑 이야기하면 되겠지?', value: 'p' }
+      { text: '그냥 나뭇잎이네~ 이런 것 쯤이야~ 장애물을 뛰어넘거나 빠르게 피한다.', value: 'S' },
+      { text: '이건 뭐지? 몬스턴가? 돌아가야하나? 뛰어야하나? 장애물 앞에서 멈추거나 주저한다.', value: 'N' }
     ]
   },
   {
     number: '05',
-    question: '첫 입사 날!<br>나의 첫 인사말은?',
+    question: '(집사)가 뭔가를 들고 들어온다! 이때 나는?',
     choices: [
-      { text: '안녕하세요ㅎㅎ 잘 부탁드려요~<br>(부끄러워 >///<)', value: '' },
-      { text: '안녕하세요! 저는 자취하고 있고요,<br>MBTI는 ~~ (빨리 친해져야지 >0<) ', value: '' }
+      { text: '킁킁,, 모지,, 모냐멍! 적극적으로 탐색하고 냄새를 맡는다.', value: 'N' },
+      { text: '무서버,, 도망갈래애~~ 조심스럽게 대응하거나 피한다.', value: 'S' }
     ]
   },
   {
     number: '06',
-    question: '날씨가 좋아~<br>유난히 일하기 싫은 날엔?',
+    question: '햇빛이 따사롭게 내리쬐는 휴일날,,',
     choices: [
-      { text: '날 좋은데 일이라니.<br>그런데 어쩌겠어? 일해야지!', value: '' },
-      { text: '이럴 때 일할 순 없어!!<br>반차 써버릴 거야!', value: '' }
+      { text: '멍~ 때리며 햇살을 즐긴다', value: 'N' },
+      { text: '멍때리는 건 재미없어! (집사)한테 놀자고 조른다', value: 'S' }
     ]
   },
   {
     number: '07',
-    question: '상사한테 한 소리 들었다.<br>나는?',
+    question: '(콰광!) 천둥이 마구 친다! 나의 반응은?',
     choices: [
-      { text: '더 열심히 해서 잘할 수 있다는<br>사람이란 걸 보여주자!', value: '' },
-      { text: '내가 재능이 없나?<br>퇴사각..', value: '' }
+      { text: '비가 많이 오네,,, 차분하게 대응하거나 무시한다.', value: 'T' },
+      { text: '비가 많이 오네,,, 차분하게 대응하거나 무시한다.', value: 'F' }
     ]
   },
   {
     number: '08',
-    question: '일을 하는 데 너무 어려워ㅠㅠ<br>어떻게 해결하지?',
+    question: '(집사)가 티비를 보면서 웃고있다! 이때 나는?',
     choices: [
-      { text: '시간을 더 끌 순 없지.<br>팀장님한테 당장 물어봐야지!', value: '' },
-      { text: '어떡하지.. 야근하더라도<br>방법을 더 찾아봐야겠다. ', value: '' }
+      { text: '뭔진 모르겠지만 히히~~ 나도 신난다!!', value: 'F' },
+      { text: '왜 웃는거지? 무슨 상황인지 모르겠네.. 몰라!', value: 'T' }
     ]
   },
   {
     number: '09',
-    question: '좋은 곳에서 이직 제안이 왔다!<br>나의 선택은?',
+    question: '흑흑,,, (집사)가 울고있네,,? 이때 나는?',
     choices: [
-      { text: '인생은 도전이야!<br>좋은 기회라고 생각하고 시작해볼래!', value: '' },
-      { text: '지금 회사도 좋은데..<br>위험 부담을 안고 이직하는 게 맞을까?', value: '' }
+      { text: '왜울지? 무슨일이지? 일단 혼자 냅둬야겠다.', value: 'T' },
+      { text: '어떡해,, 너무 슬퍼보여,, 내가 옆에서 위로해줘야지 ㅜㅜㅜㅜ', value: 'F' }
     ]
   },
   {
     number: '10',
-    question: '회사에서 진급 대상이 되었다.<br>나의 마음은?',
+    question: '푹 쉬고있는데 (집사)가 갑자기 산책가자고 조른다! 이때 나는?',
     choices: [
-      { text: '드디어 회사가 날 알아주는구나!<br>더 열심히 해야지!', value: '' },
-      { text: '진급하면 월급도 오르겠지?<br>월급 오르면 ○○ 사야지~ (상상의 나래~)', value: '' }
+      { text: '꺄 완전 좋아!! 즉흥산책 신나신나~!', value: 'P' },
+      { text: '미리 말해주지.. 지금은 쉬는 시간인데,, 루틴이 깨지자나! 그래도 산책은 가야지 ㅎㅎ', value: 'J' }
+    ]
+  },
+  {
+    number: '11',
+    question: '장난감 너무 좋아! 재미있는 장난감 시간~ 이때 나는?',
+    choices: [
+      { text: '일단 토끼인형을 갖고 놀고 그다음에 물고기 물고 놀아야지~', value: 'J' },
+      { text: '토끼인형 재밌다~ 어 저거 물고기도 있네 재밌다~ 어 슬리퍼도 재밌다~', value: 'P' }
+    ]
+  },
+  {
+    number: '12',
+    question: '매일이 즐거워! 내 하루 일상은~!?',
+    choices: [
+      { text: '일어나자마자 장난감이랑 놀다가 방석에서 낮잠자고 늘 가는 곳으로 산책을 갔다와!', value: 'P' },
+      { text: '매일 다른 장소에서 일어나는 편이야~ 어제는 소파 앞에서 잤고, 오늘은 방석에서 잤어!', value: 'J' }
     ]
   },
 ]
 export const results = [
   {
     title: '출근 시간은<br>내가 정해!',
-    character: '/images/intp.png',
+    character: '/images/INTP.png',
     results: [
       '혼자서 멘탈 케어가 가능해요!<br>소속이 없어도, 벌이가 불안정해도 저는 지금이 좋아요!',
       '일에 대한 욕심이 많아요.<br>행복한 야근이라고 할 수 있어요!',
@@ -96,7 +112,7 @@ export const results = [
   },
   {
     title: '프로직진러!<br>진행력 갑',
-    character: '/images/intp.png',
+    character: '/images/INTP.png',
     results: [
       '나는야 회사 사람들 멘탈 지킴이!<br>언제나 토닥토닥 으샤으샤 응원하며 다니는 파워 인싸!',
       '여러 사람과 협업이 필요한 직무에 찰떡!',
@@ -104,7 +120,7 @@ export const results = [
       '회사 행사나 크리스마스 이벤트,<br>회사사람들 생일까지 우리가 다 챙길게요'
     ],
     jobs: ['마케터', '기획자'],
-    lectureImg: '/images/intp.png',
+    lectureImg: '/images/INTP.png',
     lectureUrl: 'https://bit.ly/3SZl1t9'
   },
   {
@@ -117,7 +133,7 @@ export const results = [
       '업무에 예민할 때도 있지만,<br>그래서 결과물은 완벽하죠!'
     ],
     jobs: ['디자이너', '예술가'],
-    lectureImg: '/images/intp.png',
+    lectureImg: '/images/INTP.png',
     lectureUrl: 'https://bit.ly/3DWlesG'
   },
   {
@@ -135,7 +151,7 @@ export const results = [
   },
   {
     title: '한 번 집중하면<br>멈출 수 없지!',
-    character: '/images/result_character5.png',
+    character: '/images/INTP.png',
     results: [
       '저는 위선과 가식이 없어요.<br>진실만 말하죠. (진지)',
       '혼자서 더 잘해요.<br>솔로 워커 최고!',
@@ -161,20 +177,20 @@ export const results = [
   }
 ]
 export const mbtis = {
-  entj: 0,
-  entp: 0,
-  estp: 0,
-  esfp: 1,
-  esfj: 1,
-  enfj: 1,
-  infp: 2,
-  isfp: 2,
-  isfj: 2,
-  infj: 2,
-  estj: 3,
-  istp: 3,
-  intj: 4,
-  intp: 4,
-  istj: 4,
-  enfp: 5
+  ENTJ: 0,
+  ENTP: 0,
+  ESTP: 0,
+  ESFP: 1,
+  ESFJ: 1,
+  ENFJ: 1,
+  INFP: 2,
+  ISFP: 2,
+  ISFJ: 2,
+  INFJ: 2,
+  ESFJ: 3,
+  ISTP: 3,
+  INTJ: 4,
+  INTP: 4,
+  ISTJ: 4,
+  ENFP: 5
 }

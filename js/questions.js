@@ -15,22 +15,22 @@ function renderQuestion() {
     questionEl.innerHTML = question.question;
     choice1El.innerHTML = question.choices[0].text;
     choice2El.innerHTML = question.choices[1].text;
-    progressValueEl.style.width = (currentNumber+1) * 10 + '%';
+    progressValueEl.style.width = (currentNumber+1) * (1/12*100) + '%';
 }
 
 function nextQuestion(choiceNumber) {
+    const question = questions[currentNumber];
+    mbti = mbti + question.choices[choiceNumber].value;
     if(currentNumber === questions.length - 1) {
         showResultPage();
         return;
     }
-    const question = questions[currentNumber];
-    mbti = mbti + question.choices[choiceNumber].value;
     currentNumber += 1;
     renderQuestion();
 }
 
 function showResultPage() {
-    location.href = '/results.html?mbti=' + mbti;
+    location.href = '/results.html?mbti=' + mbti.split('').filter((item, index) => mbti.indexOf(item) !== index).join('');
 }
 
 choice1El.addEventListener('click', function() {
